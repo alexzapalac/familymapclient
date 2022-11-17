@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 new LoginFragment()).commit();
     }
 
-    /*public void startMapFragment() {
+    public void startMapFragment() {
         FragmentManager fm = this.getSupportFragmentManager();
         fm.beginTransaction().replace(R.id.mainActivityFragmentFrameLayout,
                 new MapFragment()).commit();
-    }*/
+    }
 
 }
